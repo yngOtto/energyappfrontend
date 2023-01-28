@@ -4,3 +4,17 @@
     width: 300px;
   }
   
+
+
+
+.custom-label {
+  padding: 0px;
+}
+
+.custom-label2 {
+  padding: 60px ;
+}
+
+mat-label {
+  padding: 10px ;
+}
