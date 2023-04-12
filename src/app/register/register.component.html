@@ -26,7 +26,7 @@
             <div class="alert-danger" *ngIf="email.errors && f.submitted">
               <div *ngIf="email.errors.required">Email is required</div>
               <div *ngIf="email.errors.email">
-                Email must be a valid email address
+                Email must be a valid email address!
               </div>
             </div>
           </div>
@@ -41,13 +41,13 @@
               name="password"
               [(ngModel)]="form.user.password"
               required
-              minlength="7"
+              minlength="8"
               #password="ngModel"
             />
             <div class="alert-danger" *ngIf="password.errors && f.submitted">
               <div *ngIf="password.errors.required">Password is required</div>
               <div *ngIf="password.errors.minlength">
-                Password must be at least 7 characters
+                Password must be at least 7 characters!
               </div>
             </div>
           </div>
